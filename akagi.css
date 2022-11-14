@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;600&family=Imbue:opsz,wght@10..100,300;10..100,700&display=swap');
+
+
+.textoheader{
+    font-family: 'Imbue', serif;
+    font-weight: 700;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 5px;
+
+}
+
+.h2header{
+    font-family: 'Imbue', serif;
+    font-weight: 300;
+    margin-top: 5px;
+}
+
+.header{
+    margin-left: 75px;
+}
+
+.main{
+    background: url(https://www.oldtokyo.com/wp-content/uploads/2016/11/scan0019.jpg);
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 1210px;
+    background-position: 5px;
+    height: 500px;
+    left: 75px;
+    top: 120px;
+    transform: translateY(0px);
+    animation: float2 2s ease-in-out;
+}
+
+@keyframes float2{
+    0%{
+        transform: translateY(65px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+.img1{
+    
+    height: 600px;
+    margin-left: 50px;
+    margin-top: 270px;
+    transform: translateY(0px);
+    animation: float 2s ease-in-out;
+}
+
+@keyframes float{
+    0%{
+        transform: translateY(200px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+.coluna2, .main2{
+    display: flex;
+    margin-left: 600px;
+    animation: float2 2s ease-in-out;
+}
+
+.coluna2{
+    margin-top: 550px;
+}
+
+.main2{
+    margin-top: 20px;
+    margin-left: 650px;
+}
+
+.img2{
+    padding-bottom: 40px;
+    height: 150px;
+}
+
+.coluna1{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQohqLjoH3iFuYE7IZRzcWd1-WYDeA_7km28NCw048YGtlTwuhywzitt6NMeKM-Qwml4b0&usqp=CAU);
+    background-size: 600px;
+    margin-right: 700px;
+    margin-top: 270px;
+    margin-left: 100px;
+    font-family: 'EB Garamond', serif;
+    transform: translateY(0px);
+    animation: float 2s ease-in-out;
+
+}
+
+.p1, .p2, .p3{
+    display: flex;
+    padding-right: 50px;
+    padding-left: 50px;
+    text-align: justify;
+}
+
+.p1{
+    padding-top: 50px;
+}
+
+.p3{
+    padding-bottom: 50px;
+}
+
+.li{
+    writing-mode: vertical-rl;
+    font-family: 'Imbue', serif;
+    font-weight: 300;
+    margin-left: 50px;
+    padding-right: 0px;
+}
+
+.ul2{
+    font-family: 'EB Garamond', serif;
+    padding-left: 10px;
+}
